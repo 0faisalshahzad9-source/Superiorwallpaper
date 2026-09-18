@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default Firebase and AppMeasurement configuration fallback.
+         Satisfies Google Mobile Ads / Firebase resource lookup when google-services.json is pending. -->
+    <string name="google_app_id" translatable="false">1:2467537610768055:android:superiorwallpapers</string>
+    <string name="gcm_defaultSenderId" translatable="false">2467537610768055</string>
+    <string name="project_id" translatable="false">superior-wallpapers</string>
+    <string name="google_api_key" translatable="false">AIzaSyFakeKeyForLocalInitialization000</string>
+</resources>

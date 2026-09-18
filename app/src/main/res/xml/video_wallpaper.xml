@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Live wallpaper descriptor for Superior Wallpapers.
+    Note: The thumbnail references ic_launcher_foreground as a placeholder;
+    you can customize it with a dedicated preview drawable later.
+-->
+<wallpaper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:thumbnail="@drawable/ic_launcher_foreground"
+    android:description="@string/live_wallpaper_description" />

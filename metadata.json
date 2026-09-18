@@ -1,0 +1,6 @@
+{
+  "name": "Superior Wallpapers",
+  "description": "A wallpaper gallery app featuring 4K, dark, anime, gaming, and nature wallpapers with category browsing, search, and wallpaper setting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
