@@ -24,11 +24,10 @@ jobs:
 
       - name: Decode Keystore
         run: echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > app/release.keystore
-- name: Decode Keystore
-        run: echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > app/release.keystore
 
       - name: Verify Keystore Checksum
         run: sha256sum app/release.keystore
+
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
